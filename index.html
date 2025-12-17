@@ -20,6 +20,7 @@
     }
     h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
     h2 { color: #555; margin-top: 2rem; }
+    h3 { font-size: 1.1rem; color: #666; margin-top: 1.5rem; }
     .screenshot {
       display: block;
       width: 80%;
@@ -42,49 +43,109 @@
       border-radius: 10px;
       box-shadow: 0 5px 15px rgba(0,0,0,0.05);
     }
+    hr {
+      margin: 3rem 0;
+      border: 0;
+      border-top: 1px solid #eee;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Yusuf Bee</h1>
-    <p>Full-Stack Developer | React • Node • AWS</p>
+    <p>Full-Stack Developer | React • Angular • Node • AWS</p>
   </header>
 
   <div class="container">
+    <!-- PROJECT 1: MEET APP -->
     <h2>Project: Meet App</h2>
     <p>
-      The Meet App is a progressive web application (PWA) that allows users to find tech events in their city. It includes dynamic data visualizations, offline support, and filtering functionality to enhance the user experience. Built with a test-driven development (TDD) approach using React, Recharts, and Google Calendar API integrations.
+      The Meet App is a progressive web application (PWA) that allows users to find tech events in their city. It includes dynamic data visualizations, offline support, and filtering functionality to enhance the user experience. Built with a test-driven development (TDD) approach.
     </p>
 
     <img class="screenshot" src="https://via.placeholder.com/800x450.png?text=Meet+App+Screenshot" alt="Meet App Screenshot">
 
-    <h2>Project Objective</h2>
-    <p>
-      To create a user-friendly event planner that integrates with Google Calendar, allows event filtering by city and number, and visualizes data interactively. The app is fully responsive and supports offline functionality.
-    </p>
-
-    <h2>Key Features</h2>
+    <h3>Key Features</h3>
     <ul>
       <li>Google Calendar OAuth integration</li>
-      <li>Dynamic event list based on city and number of events</li>
       <li>Interactive Recharts Pie and Scatterplots</li>
       <li>Offline support via service workers</li>
-      <li>LocalStorage caching of event data</li>
-      <li>Fully tested with Jest, Testing Library, and BDD with Cucumber</li>
+      <li>Test Driven Development (TDD)</li>
     </ul>
 
-    <h2>Technologies Used</h2>
-    <p>React.js • Recharts • Jest • Cucumber • Vite • AWS Lambda • Git & GitHub Pages</p>
+    <h3>Technologies Used</h3>
+    <p>React.js • Recharts • Jest • Cucumber • AWS Lambda</p>
 
-    <h2>Project Links</h2>
+    <h3>Project Links</h3>
     <p>
       <strong>Live App:</strong> <a href="https://meet-app-yusuf.vercel.app" target="_blank">meet-app-yusuf.vercel.app</a><br>
       <strong>GitHub Repository:</strong> <a href="https://github.com/YusufBee1/meet-app" target="_blank">github.com/YusufBee1/meet-app</a>
     </p>
 
-    <h2>About Me</h2>
+    <hr>
+
+    <!-- PROJECT 2: CHAT APP -->
+    <h2>Project: Chat App (Mobile)</h2>
     <p>
-      I’m Yusuf Bee, a driven full-stack JavaScript developer with a focus on performance, precision, and purpose. I build responsive, testable, and scalable apps that bridge solid engineering with clean design. Always learning, always building.
+      A native mobile chat application built for Android and iOS. Users can enter chat rooms, share images from their gallery or camera, and share their real-time location. The app features robust offline capabilities, allowing users to read cached messages even without an internet connection.
+    </p>
+
+    <img class="screenshot" src="https://via.placeholder.com/800x450.png?text=Chat+App+Screenshot" alt="Chat App Screenshot">
+
+    <h3>Key Features</h3>
+    <ul>
+      <li>Built with React Native & Expo</li>
+      <li>Real-time chat via Google Firestore</li>
+      <li>Image sharing (Camera/Library) & Geolocation features</li>
+      <li>Offline data caching with AsyncStorage</li>
+      <li>Accessibility features (Screen reader support)</li>
+    </ul>
+
+    <h3>Technologies Used</h3>
+    <p>React Native • Expo • Google Firestore • Firebase Storage</p>
+
+    <h3>Project Links</h3>
+    <p>
+      <strong>GitHub Repository:</strong> <a href="https://github.com/YusufBee1/chat-app" target="_blank">github.com/YusufBee1/chat-app</a>
+    </p>
+
+    <hr>
+
+    <!-- PROJECT 3: MYFLIX ANGULAR -->
+    <h2>Project: myFlix (Angular)</h2>
+    <p>
+      A responsive single-page application (SPA) built with Angular that interfaces with a REST API. It allows users to browse a movie catalog, manage their profile, and favorite movies. The UI is constructed using Angular Material design patterns for a polished, professional look.
+    </p>
+
+    <img class="screenshot" src="https://via.placeholder.com/800x450.png?text=Angular+App+Screenshot" alt="Angular App Screenshot">
+
+    <h3>Key Features</h3>
+    <ul>
+      <li>Modular component architecture</li>
+      <li>Angular Material UI components (Dialogs, Cards, Forms)</li>
+      <li>Typed architecture with TypeScript</li>
+      <li>Full technical documentation via TypeDoc</li>
+    </ul>
+
+    <h3>Technologies Used</h3>
+    <p>Angular • TypeScript • Angular Material • TypeDoc</p>
+
+    <h3>Project Links</h3>
+    <p>
+      <strong>GitHub Repository:</strong> <a href="https://github.com/YusufBee1/myFlix-Angular-client" target="_blank">github.com/YusufBee1/myFlix-Angular-client</a><br>
+      <strong>Live App:</strong> <a href="https://YusufBee1.github.io/myFlix-Angular-client" target="_blank">View on GitHub Pages</a>
+    </p>
+
+    <hr>
+
+    <h2>About Me & Contact</h2>
+    <p>
+      I’m Yusuf Bee, a driven full-stack JavaScript developer with a focus on performance, precision, and purpose. I build responsive, testable, and scalable apps that bridge solid engineering with clean design.
+    </p>
+    <p>
+      <strong>Get in touch:</strong><br>
+      Email: <a href="mailto:yusuf@example.com">yusuf@example.com</a><br>
+      LinkedIn: <a href="#">linkedin.com/in/yusufbee</a>
     </p>
   </div>
 </body>
